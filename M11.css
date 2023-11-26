@@ -1,0 +1,148 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* Estilos generales */
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* Encabezado */
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000;
+    position: static;
+    width: 100%;
+    z-index: 100;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+    flex-wrap: wrap;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+
+.logo {
+    margin-left: 40px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.navbar a:hover {
+    background-image:linear-gradient(#000, #76cbff, #fcfcfc);
+}
+
+/* Encabezado de página */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, #76cbff, #000);
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #76cbff;
+    font-weight: bold;
+    border: 2px solid rgba(124, 132, 255);
+    border-radius: 40px;
+    width: 200px;
+    background-color: #000;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fcfcfc;
+    font-weight: bold;
+    border: 2px solid rgba(124, 132, 255);
+    border-radius: 40px;
+    background-image: linear-gradient(#000, #76cbff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 40px 40px;
+    padding: 20px;
+}
+
+/* Botón */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #76cbff;
+    color: #000000;
+    text-decoration: none;
+    background: #76cbff;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-image: linear-gradient(#000, #76cbff, #fcfcfc);
+}
+
+/* Botones de inicio */
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0px 10px;
+}
+
+
+@media (max-width: 1250px) {
+    /* … */
+  }
+  
+.Jugadores a {
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+.PROFESORES a {
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+.madrinas a {
+    text-decoration: none;
+    color: #fff;
+}
